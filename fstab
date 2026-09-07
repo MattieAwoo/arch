@@ -1,0 +1,20 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# ARCH ROOT ON /dev/nvme0n1p3
+UUID=1d20beaa-5c62-432b-9700-4214a482653f       /               btrfs           rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@  0 0
+# HOME MOUNTPOINT ON /dev/nvme0n1p3
+UUID=1d20beaa-5c62-432b-9700-4214a482653f       /home           btrfs           rw,relatime,ssd,discard=async,space_cache=v2,subvol=/@home      0 0
+
+# EFI /dev/nvme0n1p6
+UUID=62DA-3960          /boot/efi       vfat            rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro 0 2
+
+#WINDOWS DRIVES - ORDER: WD BLACK NVME, SATA SSD, HDD, SAMSUNG NVME
+UUID=920EDC140EDBEEEB                     /home/Games    ntfs3    uid=1000,gid=1000,rw,user,exec,umask=000 0 0
+UUID=1CB2987FB2985ED8                                     /home/SSD      ntfs3    uid=1000,gid=1000,rw,user,exec,umask=000 0 0
+#REMOVE COMMENT WHEN YOU RECONNECT IT STUPID FUCK
+#UUID=E62087D62087ABDD                     /home/HDD      ntfs    uid=1000,gid=1000,rw,user,exec,umask=000 0 0
+UUID=1C927699927676DC                     /home/SSD2     ntfs3    uid=1000,gid=1000,rw,user,exec,umask=000 0 0
+
+#if the windows drives break randomly, try removing the "3" from ntfs3 to force ntfs-3g instead of kernel driver
