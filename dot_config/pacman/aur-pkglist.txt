@@ -1,0 +1,7 @@
+fetch-git
+git-credential-manager-bin
+nirimod-git
+qt6ct-kde
+spicetify-bin
+spotify
+xwayland-satellite-git
