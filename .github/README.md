@@ -19,7 +19,7 @@ Migrated from garuda dragonized to vanilla arch because I was tired of garuda bl
 
 Full system package lists exists in [~/.config/pacman](/dot_config/pacman/)
 
-Manage backups with Chezmoi
+Managing backups with Chezmoi
 
 ## PC Specs // codename "SNOW"
 - ROG STRIX B550-A
