@@ -3,5 +3,6 @@ if status is-interactive
 set -gx EDITOR nano
 set -gx VISUAL nano
 set -U fish_greeting ""
+set -x GPG_TTY (tty)
 oh-my-posh init fish --config '~/.config/fish/posh.json' | source
 end
