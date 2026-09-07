@@ -1,0 +1,32 @@
+[ 19127 ms] *** PREVIEW BUTTON CLICK - RUNNING PASCUBE ***
+[ 20284 ms] BenchmarkTimerTick: WasRunning=1 Started=0 StartTicks=0
+[ 20290 ms] BenchmarkTimerTick: IsProcessRunningPure = 1
+[ 20290 ms] BenchmarkTimerTick: Final IsRunning=1
+[ 20290 ms] BenchmarkTimerTick: pascube started successfully in process table.
+[ 21234 ms] BenchmarkTimerTick: WasRunning=1 Started=1 StartTicks=0
+[ 21240 ms] BenchmarkTimerTick: IsProcessRunningPure = 1
+[ 21240 ms] BenchmarkTimerTick: Final IsRunning=1
+[ 22184 ms] BenchmarkTimerTick: WasRunning=1 Started=1 StartTicks=0
+[ 22189 ms] BenchmarkTimerTick: IsProcessRunningPure = 1
+[ 22190 ms] BenchmarkTimerTick: Final IsRunning=1
+[ 23159 ms] BenchmarkTimerTick: WasRunning=1 Started=1 StartTicks=0
+[ 23164 ms] BenchmarkTimerTick: IsProcessRunningPure = 1
+[ 23164 ms] BenchmarkTimerTick: Final IsRunning=1
+[ 24159 ms] BenchmarkTimerTick: WasRunning=1 Started=1 StartTicks=0
+[ 24164 ms] BenchmarkTimerTick: IsProcessRunningPure = 1
+[ 24164 ms] BenchmarkTimerTick: Final IsRunning=1
+[ 25159 ms] BenchmarkTimerTick: WasRunning=1 Started=1 StartTicks=0
+[ 25165 ms] BenchmarkTimerTick: IsProcessRunningPure = 1
+[ 25165 ms] BenchmarkTimerTick: Final IsRunning=1
+[ 26159 ms] BenchmarkTimerTick: WasRunning=1 Started=1 StartTicks=0
+[ 26165 ms] BenchmarkTimerTick: IsProcessRunningPure = 1
+[ 26165 ms] BenchmarkTimerTick: Final IsRunning=1
+[ 27159 ms] BenchmarkTimerTick: WasRunning=1 Started=1 StartTicks=0
+[ 27165 ms] BenchmarkTimerTick: IsProcessRunningPure = 0
+[ 27188 ms] BenchmarkTimerTick: pgrep fallback exit code = 1
+[ 27188 ms] BenchmarkTimerTick: Final IsRunning=0
+[ 27188 ms] BenchmarkTimerTick: pascube terminated. Results shown in PasCube overlay.
+[ 27188 ms] CopyPasCubeLogs: pascube_debug.log not found at /usr/lib/pascube_debug.log
+[ 27188 ms] CopyPasCubeLogs: pascube_thread.log not found at /usr/lib/pascube_thread.log
+[ 28733 ms]   FormResize BEGIN
+[ 28804 ms]   FormResize BEGIN
