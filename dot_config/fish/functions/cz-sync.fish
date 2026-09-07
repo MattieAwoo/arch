@@ -19,7 +19,7 @@ function cz-sync --description 'Automatically capture new files, changes, and pu
         if string match -ri '^[yY](es)?$' -- $confirm
             echo "📤 Syncing repository..."
             chezmoi git add .
-            chezmoi git commit -- -m "Auto-update dotfiles: (date '+%Y-%m-%d %H:%M')"
+            chezmoi git commit -- -m "Auto-update dotfiles"
             chezmoi git push origin main
         end
     end
