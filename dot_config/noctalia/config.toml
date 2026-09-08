@@ -186,7 +186,8 @@ enabled = [
     "raycursive/discord-voice",
     "0x1ce/mpris-lyrics",
     "tranzem/media-lyrics",
-    "kenn/keybind-cheatsheet"
+    "kenn/keybind-cheatsheet",
+    "h465855hgg/lyrics"
 ]
 
     [[plugins.source]]
@@ -268,6 +269,7 @@ scale = 1.6000000000000001
 
 [widget.bar]
 barMaxWidth = 100
+enabled = false
 font_family = "Inter"
 font_weight = 200
 paddingLeft = 0
@@ -304,7 +306,7 @@ scale = 1.5
 [widget.lyrics]
 anchor = true
 animation = "cascade"
-capsule = true
+capsule = false
 capsule_opacity = 0.45000000000000001
 capsule_radius = 17
 char_width = 4
@@ -312,8 +314,8 @@ display_mode = "toggle"
 double_line = false
 font_family = "Inter"
 font_weight = 300
-hide_when_no_lyrics = false
-hide_when_paused = false
+hide_when_no_lyrics = true
+hide_when_paused = true
 max_chars = 34
 max_lines = 2
 text_alignment = "center"
@@ -330,7 +332,7 @@ type = "h465855hgg/lyrics:lyrics"
 [widget.media]
 album_art_only = true
 art_size = 20
-enabled = true
+enabled = false
 hide_artist = true
 hide_when_no_media = true
 max_length = 330
