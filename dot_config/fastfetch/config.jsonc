@@ -7,10 +7,25 @@
     "padding": {
       "top": 0,
       "left": 4
+    },
+    "color": {
+      "1": "#63c0de",
+      "2": "#63c0de"
     }
   },
   "display": {
-    "separator": " "
+    "separator": " ",
+    "color": {
+      "keys": "#bfc0de",
+      "title": "#bfc0de"
+    },
+    "percent": {
+      "color": {
+        "green": "#cecfeb",
+        "yellow": "#9698e9",
+        "red": "#debfbf"
+      }
+    }
   },
   "modules": [
     {
