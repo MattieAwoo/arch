@@ -12,10 +12,12 @@ Migrated from garuda dragonized to vanilla arch because I was tired of garuda bl
 
 - Vanilla Arch
     - CachyOS Kernel (linux-cachyos)
-- Niri WM
+- [Niri](/dot_config/niri/) WM
     - Noctalia Shell
-- Kitty Terminal
-    - Fish (literally only because kitty & fish sound silly)
+- [Kitty](/dot_config/kitty/) terminal
+    - [Fish](/dot_config/fish/) shell(literally only because kitty & fish sound silly)
+  
+- [Fuzzel](/dot_config/fuzzel/) app launcher
 
 Full system package lists exists in [~/.config/pacman](/dot_config/pacman/)
 
@@ -27,3 +29,7 @@ Managing backups with Chezmoi
 - 2x16gb Corsair Vengeance DDR4
 - Zotac 4070ti SUPER Trinity OC
 - NZXT H9 Flow case (2023)
+- Main Display: Alienware AW3425DW 34in 3440x1440p 240hz QD-OLED
+- Secondary Display: LG 27GR83Q Ultragear 27in 2560x1440 240hz IPS
+
+![PC](PC.jpg)
