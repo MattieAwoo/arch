@@ -57,6 +57,7 @@ inactive_opacity = 0.67999998480081558
 magnification_scale = 1.1500000022351742
 
 [location]
+address = "Laceyville, PA"
 auto_locate = true
 
 [lockscreen]
@@ -184,7 +185,8 @@ enabled = [
     "noctalia/wallpaper_depth",
     "raycursive/discord-voice",
     "0x1ce/mpris-lyrics",
-    "tranzem/media-lyrics"
+    "tranzem/media-lyrics",
+    "kenn/keybind-cheatsheet"
 ]
 
     [[plugins.source]]
