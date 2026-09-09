@@ -33,7 +33,7 @@ Managing backups with Chezmoi
 - Secondary Display: LG 27GR83Q Ultragear 27in 2560x1440 240hz IPS
 - Audio interface: Focusrite Scarlet 2i2 4th gen
     - Audio Technica AT2020
-- DAC: Fiio K11 R2R - [EQ Presets](dot_local/share/easyeffects/output)
+- DAC: Fiio K11 R2R - [EQ Presets](/dot_local/share/easyeffects/output)
     - DT770 PRO 250ohm closed-back (main)
     - HiFiMan Edition XV open-back (music)
     - CrinEar Daybreak IEMs (on the go/music)
