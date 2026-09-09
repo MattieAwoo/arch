@@ -16,6 +16,7 @@ input {
     mouse {
         accel-profile "flat"
     }
+    touchpad
 }
 
 output "HDMI-A-1" {
@@ -111,9 +112,9 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
-    Mod+T hotkey-overlay-title="Open Kitty" { spawn "kitty"; }
+    Mod+T hotkey-overlay-title="Open Kitty" { spawn "kitty" "--hold" "fish" "-c" "fastfetch"; }
     Mod+D hotkey-overlay-title="Open Fuzzel" { spawn "fuzzel"; }
-    Mod+S hotkey-overlay-title="Open Zen Browser" {spawn "zen-browser"; }
+    Mod+S hotkey-overlay-title="Open Zen Browser" { spawn "zen-browser"; }
 
     XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+ -l 1.0"; }
     XF86AudioLowerVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1-"; }
@@ -314,3 +315,5 @@ cursor {
 
     xcursor-size 20
 }
+
+animations
